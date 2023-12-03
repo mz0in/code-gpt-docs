@@ -8,24 +8,31 @@ sidebar_position: 2
 1. In Visual Studio Code, click **`File` > `Preferences` > `Settings`**.  This will open the Settings window.  
 2. On the left-hand side of the Settings window, click **`Extensions`**, and then click **`CodeGPT`**.
 
-<details>
+:::note CodeGPT Settings
 
-<summary>Screenshot: Code GPT Settings</summary>
+![Captura-de-Pantalla-2023-01-04-a-la-s-2-29-15-p-m-](https://github-production-user-asset-6210df.s3.amazonaws.com/6216945/274431737-b31ae5a8-8636-4a75-a32b-79062d0087de.png)
 
-![Captura-de-Pantalla-2023-01-04-a-la-s-2-29-15-p-m-](https://user-images.githubusercontent.com/6216945/210634562-1dd5f8cd-4625-42fc-92f4-7e1b5f132c49.png)
-
-</details>
+:::
 
 ## Available Settings
 
 ### API Key
 
-Select your API provider from the dropdown menu. 
+Select your AI provider from the dropdown menu, then enter the API Key for the selected provider.
 
-:::info Entering your API Key
+:::info Get your API Key
 
-*See the [Installation](./installation.md) page for more information about how to set up Code GPT with your API Key.*
-
+- [CodeGPT Plus](/docs/tutorial-ai-providers/judini)
+- [OpenAI](/docs/tutorial-ai-providers/openai)
+- [Google Makersuite](/docs/tutorial-ai-providers/google)
+- [Microsoft Azure](/docs/tutorial-ai-providers/microsoft-azure)
+- [Anthropic](/docs/tutorial-ai-providers/anthropic)
+- [Cohere](/docs/tutorial-ai-providers/cohere)
+- [AI21](/docs/tutorial-ai-providers/ai21)
+- [Huggingface](/docs/tutorial-ai-providers/huggingface)
+- [GPT4All](/docs/tutorial-ai-providers/gpt4all)
+- [Ollama](/docs/tutorial-ai-providers/judini)
+  
 :::
 
 ### Max Token
@@ -33,34 +40,28 @@ Tokens can be thought of as pieces of words. Before the API processes the prompt
 
 Each model has a maximum number of tokens. Select the number of tokens depending on the length of the response you want to get and the selected model.
 
-Learn more: 
-- [Tokens by OpenAI (English)](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
-- [Max Token in Medium (Spanish)](https://medium.com/@dan.avila7/concepto-de-tokens-en-openai-f5d4196076f6)
+Learn more: [Tokens by OpenAI](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
 
-## Model
+### Model
 The service provides access to many different models, grouped by family and ability. A model family typically associates models by their intended task.
 
-Learn more: 
-- [Models by OpenAI (English)](https://beta.openai.com/docs/models/overview)
-- [Model in Medium (Spanish)](https://medium.com/@dan.avila7/modelos-de-gpt-3-y-codex-11a64948d87)
+Learn more: [Models by OpenAI](https://beta.openai.com/docs/models/overview)
 
-## Organization ID (OpenAI)
+### Organization ID (OpenAI)
 The organization ID information only applies to OpenAI and allows you to select the organization with which you will be using your API Key
 
-## Query Language
+### Query Language
 Select the language in which you will work the interactions with the API.
 For functionalities such as Explain or Document, each query will be made in the selected language.
 
-## Temperature
+### Temperature
 This is a parameter that can be adjusted. It determines the level of randomness or "creativity" in the generated text. A higher temperature will result in more varied and creative output, while a lower temperature will produce output that is more similar to the training data and less likely to contain unexpected or surprising content.
 
 It is a value between 0 and 1. 0 being the most deterministic and 1 being the most random and creative. The default temperature is 0.3
 
-Learn more: 
-- [Temperature by Cohere (English)](https://docs.cohere.ai/docs/temperature)
-- [Temperature in Medium (Spanish)](https://medium.com/@dan.avila7/c%C3%B3mo-manejar-los-par%C3%A1metros-temperature-y-top-p-en-openai-b45892b250be)
+Learn more: [Temperature by Cohere](https://docs.cohere.ai/docs/temperature)
 
-## Window Memory
+### Window Memory
 
 It stores a list of past conversations, but only the last K (a specific number) conversations are used from the saved list. This is done to prevent the buffer from becoming too large and exceeding the token limit.
 

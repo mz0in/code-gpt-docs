@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# À Propos de CodeGPT
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### Bienvenue dans notre tutoriel sur l'utilisation de CodeGPT dans Visual Studio Code ! 
+ 
+ CodeGPT est une extension puissante qui exploite les capacités des grands modèles de langage (LLM) pour améliorer vos tâches de programmation à l'aide de l'IA. 
+ 
+:::info
 
-## Getting Started
+ Cet outil vous permet non seulement d'interagir avec votre environnement de travail de manière dynamique, mais il peut également créer des agents IA qui enrichissent les LLM de contexte et vous connectent à des référentiels, des rapports et d'autres domaines essentiels de votre entreprise. 
+ 
+:::
 
-Get started by **creating a new site**.
+:::note Extension CodeGPT pour VSCode
+<p align="center">
+    <img src="https://github.com/davila7/code-gpt-docs/assets/6216945/4c478f3e-b222-42d0-a079-5a1d8167159c" />
+</p>
+:::
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Démarrer avec CodeGPT : Votre Guide pour une Expérience de Codage Améliorée par l'IA
+ 
+ Dans ce tutoriel, nous vous guiderons à travers le téléchargement et la configuration de CodeGPT, et nous vous montrerons quelques cas d'utilisation typiques, afin que vous puissiez l'intégrer sans problème dans votre flux de travail de codage. 
+ 
 
-### What you'll need
+:::note Commençons et plongeons directement dans l'expérience de codage améliorée par l'IA !
+<p align="center">
+    <img src="https://github.com/davila7/code-gpt-docs/assets/6216945/a7f7acc0-4e85-4e88-9370-a2d2f1163a1d" />
+</p>
+:::
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+:::caution
 
-## Generate a new site
+Bien que l'extension CodeGPT soit gratuite, elle nécessite l'utilisation d'une API provenant d'un fournisseur externe (voir [Fournisseurs](/docs/category/ai-providers)). **Ces fournisseurs externes sont des services payants**, bien qu'ils puissent offrir une utilisation limitée gratuitement.
 
-Generate a new Docusaurus site using the **classic template**.
+:::
 
-The classic template will automatically be added to your project after you run the command:
+--- 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Dans le prochain module, vous apprendrez comment installer et configurer l'extension. Cliquez sur [Basics](/docs/category/basics) pour continuer.

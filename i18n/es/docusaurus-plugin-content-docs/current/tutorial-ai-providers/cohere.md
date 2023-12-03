@@ -1,15 +1,28 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Cohere
+Sitio web oficial https://cohere.ai
 
-Cohere is an artificial intelligence company that specializes in developing language models. They use advanced natural language processing and machine learning techniques to improve the understanding of human language and the ability to generate text automatically. Their models are used in applications such as sentiment analysis, summarization, and machine translation.
+Cohere es una empresa de inteligencia artificial especializada en el desarrollo de modelos de lenguaje. Utilizan técnicas avanzadas de procesamiento de lenguaje natural y aprendizaje automático para mejorar la comprensión del lenguaje humano y la capacidad de generar texto automáticamente. Sus modelos se utilizan en aplicaciones como análisis de sentimientos, resumen y traducción automática.
 
-# Command Nightly
+## Conectar su cuenta de Cohere
+- Cree una cuenta en [cohere.ai](https://cohere.ai/)
+- Vaya a su [dashboard](https://dashboard.cohere.ai/) 
+- Copie la API Key
+- En VSCode, ingrese el comando ```cmd + shift + p``` y busque **`Set API Key`**
+- Pegue su clave API
 
-Command is a generative model that responds well with instruction-like prompts, and is available in two sizes: medium and xlarge. The xlarge model demonstrates better performance, and medium is a great option for developers who require fast response, like those building chatbots.
+:::caution Eliminar la API Key 
+Si desea eliminar su clave API de CodeGPT, abra la Paleta de comandos y busque `CodeGPT: Remove API KEY`.
+:::
 
-### Command Nightly available in Code GPT
+## Modelos Nightly disponibles en Code GPT
+- coral (Para el modelo de Chat, visite: https://cohere.com/chat)
 - command-xlarge-nightly
 - command-medium-nightly
+- command-light-nightly
+
+## Errores de API
+Si está recibiendo errores de API, verifique el siguiente enlace: [Cohere API Errors](https://docs.cohere.ai/reference/errors) https://cohere.ai. 

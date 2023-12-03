@@ -6,12 +6,30 @@ sidebar_position: 10
 
 Official website https://ollama.ai
 
+Opensource project to run, create, and share large language models (LLMs).
+## Connect Ollama Models
+- Download Ollama from the following link: [ollama.ai](https://ollama.ai/)
+- Install Ollama and use the model codellama by running the command ```ollama pull codellama```
+- If you want to use mistral or other models, you will need to replace codellama with the desired model. For example: ```ollama pull mistral```
 
-Opensource proyecto to run, create, and share large language models (LLMs).
+# How to use Ollama
+- Open CodeGPT Setting in VSCode and Select Ollama like a Provider
 
+:::note Ollama
+<p align="center">
+    <img src="https://github.com/davila7/code-gpt-docs/assets/6216945/ddec585e-84c6-49c4-86ac-be624fbfd9ee" />
+</p>
+:::
 
-### Ollama Models available in Code GPT
+- Select one of the Ollama Models
 
+:::note Ollama Models
+<p align="center">
+    <img src="https://github.com/davila7/code-gpt-docs/assets/6216945/1bf08939-60fe-4ad1-b588-898c20f2a8e8" />
+</p>
+:::
+
+## Ollama Models available in Code GPT
 - llama2
 - llama2:13b
 - llama2:70b
@@ -26,6 +44,5 @@ Opensource proyecto to run, create, and share large language models (LLMs).
 - wizardcoder:34b-python
 - mistral
 
-### Connect this provider with CodeGPT
-
-[Connect Ollama](https://docs.codegpt.co/docs/tutorial-basics/installation#ollama)
+## API Errors
+If you are getting API errors check the following link: [Ollama Documentation](https://ollama.ai/)

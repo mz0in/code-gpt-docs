@@ -9,9 +9,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Code GPT',
+  title: 'CodeGPT',
   tagline: 'Artificial intelligence inside your IDE with this open source extension',
-  url: 'https://code-gpt-docs.vercel.app/',
+  url: 'https://docs.codegpt.co/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,7 +27,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en','pt','es'], // es, fr, pt
+    locales: ['en', 'es','pt','fr', 'ko'], // es, fr, pt
   },
   customFields:{
     mendableAnonKey: process.env.MENDABLE_ANON_KEY,
@@ -106,10 +106,12 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Code GPT',
+        title: 'CodeGPT',
         logo: {
-          alt: 'Code GPT',
+          alt: 'CodeGPT',
           src: 'img/mini_gpt_circle.png',
+          href: '/docs/intro',
+          target: '_self',
         },
         items: [
           {
@@ -152,14 +154,14 @@ const config = {
                 label: 'Discord',
                 href: 'https://discord.gg/vgTGsVr69s',
               },
-              {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/r/CodeGPT_VSCode/',
-              },
-              {
-                label: 'Facebook Group',
-                href: 'https://www.facebook.com/groups/1590127588169761',
-              },
+              // {
+              //   label: 'Reddit',
+              //   href: 'https://www.reddit.com/r/CodeGPT_VSCode/',
+              // },
+              // {
+              //   label: 'Facebook Group',
+              //   href: 'https://www.facebook.com/groups/1590127588169761',
+              // },
               {
                 label: 'Product Hunt',
                 href: 'https://www.producthunt.com/posts/code-gpt'
@@ -192,7 +194,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Code GPT Docs, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CodeGPT Docs, Built with Docusaurus.`,
       },
       // prism: {
       //   theme: lightCodeTheme,
